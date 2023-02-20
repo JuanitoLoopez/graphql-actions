@@ -25,6 +25,7 @@ jobs:
       run: |
         echo "Iniciando login"
         echo "DOCKER_USER=$DOCKER_USER"
+        echo "DOCKER_USER=$DOCKER_USER"
         echo "DOCKER_PASSWORD=$DOCKER_PASSWORD"
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
         echo "Finalizando login"
